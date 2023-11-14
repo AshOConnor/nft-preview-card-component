@@ -1,0 +1,124 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "outfit", sans-serif;
+  font-size: 0.875rem; /* 14px converted to rem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+}
+
+.nft-inner {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 0.625rem; /* 10px converted to rem */
+  max-width: 21.25rem; /* 340px converted to rem */
+  box-shadow: 0 0 2rem 0.1rem hsl(218, 67%, 5%);
+}
+
+.nft {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.25rem; /* 20px converted to rem */
+}
+
+.nft img {
+  border-radius: 0.625rem; /* 10px converted to rem */
+  max-width: 18.75rem; /* 300px converted to rem */
+}
+
+.nft-inner h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4375rem; /* 23px converted to rem */
+  margin-top: 1.5625rem; /* 25px converted to rem */
+  margin-left: 1.5rem; /* 24px converted to rem */
+  font-weight: 600;
+}
+
+.nft-details p {
+  padding-left: 1.5rem; /* 24px converted to rem */
+  padding-right: 1.5rem; /* 24px converted to rem */
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem; /* 16px converted to rem */
+  font-weight: 300;
+}
+
+.details-lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem; /* 24px converted to rem */
+  margin-bottom: 0.3125rem; /* 5px converted to rem */
+}
+
+.time,
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem; /* 20px converted to rem */
+  margin-top: 0.9375rem; /* 15px converted to rem */
+}
+
+.price img,
+.time img {
+  display: inline-block;
+  margin-right: 0.5rem; /* 8px converted to rem */
+  vertical-align: middle;
+}
+
+.price h3,
+.time h3 {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.875rem; /* 14px converted to rem */
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.price h3 {
+  color: hsl(178, 100%, 50%);
+}
+
+.creator {
+  border-top: 0.0625rem solid hsl(215, 32%, 27%); /* 1px converted to rem */
+  margin-left: 1.5rem; /* 24px converted to rem */
+  margin-right: 1.5rem; /* 24px converted to rem */
+}
+
+.creator img {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 4.6875rem; /* 75px converted to rem */
+  border-style: solid;
+  border-color: hsl(0, 0%, 100%);
+  border-width: 0.0625rem; /* 1px converted to rem */
+  width: 1.5625rem; /* 25px converted to rem */
+}
+
+.creator h4 {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 1.25rem; /* 20px converted to rem */
+  margin-left: 0.625rem; /* 10px converted to rem */
+  font-size: 0.875rem; /* 14px converted to rem */
+}
+
+.creator span {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-left: 0.3125rem; /* 5px converted to rem */
+}
+
+.attribution {
+  font-size: 0.6875rem; /* 11px converted to rem */
+  text-align: center;
+  margin-top: 0.625rem; /* 10px converted to rem */
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
